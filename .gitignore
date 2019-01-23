@@ -11,3 +11,6 @@ yarn-error.log*
 *.ntvs*
 *.njsproj
 *.sln
+
+noms.txt
+lab1.zip
