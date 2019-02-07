@@ -2,65 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Lab 1</title>
-    <link rel="stylesheet" type="text/css" href="lab1.css">
+    <title>Lab 4</title>
+    <link rel="stylesheet" type="text/css" href="lab4.css">
   </head>
   <body>
-    <div class="row-container">
-      <h1>10gag</h1>
-    </div>
-
-    <div class="row-container">
-      <a class="menu-item" href="">Accueil</a>
-      <a class="menu-item" href="">Chats</a>
-      <a class="menu-item" href="">Chiens</a>
-      <a class="menu-item" href="">Memes</a>
-      <a class="menu-item" href="">Gifs</a>
-      <a class="menu-item" href="">Videos</a>
-    </div>
-    <div class="column-container content">
-      <div class="post-container">
-        <img src="https://cdn.slidesharecdn.com/ss_thumbnails/downloadfunnycatvideos-150906143836-lva1-app6891-thumbnail-4.jpg?cb=1441550352">
-        <div class="image-subtext">
-          Une plutôt petite face.
-        </div>
+    <div id="inner-container">
+      <h2>To Do List</h2>
+      <div id="new-task-header">
+        <input type="text" id="new-task-title" placeholder="Title...">
+        <span id="add-task-button"><button onclick="handleNewTask()">Add task</button></span>
       </div>
-      <div class="post-container">
-        <img src="http://www.pmslweb.com/the-blog/wp-content/uploads/2015/07/18-funny-cat-with-makeup.png">
-        <div class="image-subtext">
-          Maquillé comme Alex Boily
-        </div>
-      </div>
-      <div class="post-container">
-        <img src="https://c7.alamy.com/comp/MJ52K7/wet-cat-funny-cat-in-the-bath-MJ52K7.jpg">
-        <div class="image-subtext">
-          Quand tu veux vraiment pas prendre ton bain.
-        </div>
-      </div>
-      <div class="post-container">
-        <img src="https://cf.ltkcdn.net/cats/images/std/168266-425x282-grumpy-cat.jpg">
-        <div class="image-subtext">
-          La gentillesse incarnée.
-        </div>
-      </div>
-      <div class="post-container">
-        <img src="https://quoteshumor.com/wp-content/uploads/2016/05/Top-40-Funny-Cat-Memes-17-Funny-cats-500x500.jpg">
-        <div class="image-subtext">
-          Bien camouflé.
-        </div>
-      </div>
-      <div class="post-container">
-        <img src="https://cardfool.s3.amazonaws.com/cards/assets/low_Mewchas%20Gracias_cover.jpg">
-        <div class="image-subtext">
-          Mexican cat.
-        </div>
-      </div>
-      <div class="post-container">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ9pElzNGX2x6O0tOtoTK9srrnWiZ3X8YftsybwQVKxnrUhdtX">
-        <div class="image-subtext">
-          Classique grumpy cat.
-        </div>
+      <textarea id="new-task-content" placeholder="Content..."></textarea>
+      <div id="tasks">
+        <h3>My Tasks</h3>
       </div>
     </div>
   </body>
+  <script type="text/javascript" src="lab4.js"></script>
 </html>

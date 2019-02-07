@@ -1,0 +1,36 @@
+#inner-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    justify-content: center;
+}
+
+#new-task-title {
+    width: 75%;
+}
+
+#add-task-button {
+    width: 25%;
+    cursor: pointer;
+}
+
+#new-task-header {
+    width: 100%;
+}
+
+.task-container {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #f2f2f2;
+}
+
+.task-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+button {
+    cursor: pointer;
+}
